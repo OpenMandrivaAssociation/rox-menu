@@ -12,6 +12,7 @@ Source0: http://www.skepticats.com/rox/dist/%oname-%version.tar.bz2
 License: GPL
 Group: Graphical desktop/Other
 URL: http://www.skepticats.com/rox/rox-menu.html
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: librox-c-devel >= 2.1.3
 Requires: rox
 
