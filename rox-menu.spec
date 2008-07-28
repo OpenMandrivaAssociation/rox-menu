@@ -1,6 +1,6 @@
 %define name rox-menu
 %define version 1.0.2
-%define release %mkrel 4
+%define release %mkrel 6
 %define oname ROX-Menu
 %define _appsdir	%{_libdir}/apps
 
