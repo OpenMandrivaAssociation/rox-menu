@@ -58,3 +58,56 @@ rm -rf $RPM_BUILD_ROOT
 %_datadir/Choices/%oname
 
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.0.2-8mdv2010.0
++ Revision: 433392
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0.2-7mdv2009.0
++ Revision: 260299
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0.2-6mdv2009.0
++ Revision: 251400
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.0.2-4mdv2008.1
++ Revision: 140747
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sun Jan 14 2007 GÃ¶tz Waschk <waschk@mandriva.org> 1.0.2-4mdv2007.0
++ Revision: 108620
+- Import rox-menu
+
+* Sun Jan 14 2007 GÃ¶tz Waschk <waschk@mandriva.org> 1.0.2-4mdv2007.1
+- Rebuild
+
+* Tue Aug 01 2006 GÃ¶tz Waschk <waschk@mandriva.org> 1.0.2-1mdv2007.0
+- Rebuild
+
+* Mon Jan 02 2006 GÃ¶tz Waschk <waschk@mandriva.org> 1.0.2-2mdk
+- rebuild for new rox-clib
+- use mkrel
+
+* Wed Aug 31 2005 Götz Waschk <waschk@mandriva.org> 1.0.2-1mdk
+- drop patch
+- URL
+- new version
+
+* Fri Aug 27 2004 Götz Waschk <waschk@linux-mandrake.com> 1.0.1-2mdk
+- fix URL
+- patch to fix build
+
+* Tue Apr 27 2004 Götz Waschk <waschk@linux-mandrake.com> 1.0.1-1mdk
+- new version
+
+* Tue Apr 20 2004 Götz Waschk <waschk@linux-mandrake.com> 1.0.0-1mdk
+- fix permissions
+- new version
+
